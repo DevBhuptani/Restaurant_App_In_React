@@ -14,7 +14,6 @@ const MenuCard = ({ menuData }) => {
           return (
             <>
               <div className="card-container" key={id}>
-                {/*key={id} == key={curElem.id}*/}
                 <Card className="card">
                   <Card className="card-body">
                     <span className="card-number card-circle subtle">{id}</span>
