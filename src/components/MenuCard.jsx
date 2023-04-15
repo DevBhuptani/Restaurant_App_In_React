@@ -1,6 +1,5 @@
-import { Card } from "antd";
-import React from "react";
-import { Image } from "react-bootstrap";
+import React from 'react';
+import { Image, Card } from 'react-bootstrap';
 
 const MenuCard = ({ menuData }) => {
   console.log(menuData);
@@ -24,7 +23,7 @@ const MenuCard = ({ menuData }) => {
                     </span>
                     <div className="card-read">Read</div>
                   </Card>
-                  <Image src={image} alt="food"/>
+                  <Image src={image} alt="food" />
                   <span className="card-tag subtle">Order Now</span>
                 </Card>
               </div>
